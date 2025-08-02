@@ -12,7 +12,6 @@ import plotly.graph_objects as go
 from scipy.stats import gaussian_kde
 from sklearn.feature_selection import SelectKBest, f_classif
 
-# Absolute path resolution
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH = os.path.join(BASE_DIR, "data.csv")
 MODEL_PATH = os.path.join(BASE_DIR, "breast_cancer_model.pkl")

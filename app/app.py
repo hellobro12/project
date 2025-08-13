@@ -31,7 +31,7 @@ def load_dataset():
     except FileNotFoundError:
         st.error(f"Dataset not found at {DATA_PATH}")
         return None
-
+# def-main
 def main():
     st.set_page_config(page_title='Breast Cancer Diagnosis', layout='centered', initial_sidebar_state='auto')
     

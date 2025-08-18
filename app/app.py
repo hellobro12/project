@@ -15,7 +15,7 @@ from sklearn.feature_selection import SelectKBest, f_classif
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH = os.path.join(BASE_DIR, "data.csv")
 MODEL_PATH = os.path.join(BASE_DIR, "breast_cancer_model.pkl")
-
+#resource catch
 @st.cache_resource
 def load_model():
     try:
